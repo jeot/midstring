@@ -6,6 +6,8 @@ description = "Create a string between two other strings, that is lexicographica
 license = "MIT"
 authors = ["Shamim Keshani <sh.keshani@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/jeot/midstring"
+keywords = ["midstring", "lexicographically", "lexical"]
 
 
 [dependencies]
