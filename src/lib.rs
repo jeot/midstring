@@ -1,5 +1,6 @@
-//! This 'midstring' library is for creating a string between two other strings, that is
-//! lexicographically halfway between them.
+//! This rust crate is for creating a string between two other strings, that is lexicographically
+//! halfway between them.
+//!
 //! ```
 //! // "aaa" |
 //! //       | -> creates "aan"
