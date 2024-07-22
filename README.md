@@ -6,7 +6,10 @@ This rust crate is for creating a string between two other strings, that is lexi
 // "aaz" |
 ```
 
+
 This is useful for re-ordering items in the database with only one update. Get the left and right key strings (that is used for ordering), then create the new key string with `mid_string()` function. Then assign this key string to the new item that is placed in between the previous two items. If you sort by this key, it should be ordered correctly.
+
+**Important! For now, this works only for lower case English ascii characters: [a ~ z]. Other characters will result in unpredictable behaviour.**
 
 This library is based on the answer provided by "m69" to the following stackoverflow.com question:
 

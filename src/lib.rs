@@ -12,6 +12,8 @@
 //! `mid_string()` function. Then assign this key string to the new item that is placed in between
 //! the previous two items. If you sort by this key, it should be ordered correctly.
 //!
+//! **Important! For now, this works only for lower case English ascii characters: [a ~ z]. Other characters will result in unpredictable behaviour.**
+//!
 //! This library is based on the answer provided by "m69" to the following stackoverflow.com question:
 //!
 //! [https://stackoverflow.com/questions/38923376/return-a-new-string-that-sorts-between-two-given-strings](https://stackoverflow.com/questions/38923376/return-a-new-string-that-sorts-between-two-given-strings)
