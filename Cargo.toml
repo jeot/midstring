@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2021"
 description = "Create a string between two other strings, that is lexicographically halfway between them."
 license = "MIT"
+authors = ["Shamim Keshani <sh.keshani@gmail.com>"]
+readme = "README.md"
 
 
 [dependencies]
